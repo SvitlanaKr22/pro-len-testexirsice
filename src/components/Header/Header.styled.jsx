@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 export const Divfix = styled.div`
-  position: fixed;
+  // position: fixed;
 `;
 export const Div = styled.header`
   width: 100%;
   position: relative;
+  z-index: 100;
   margin: 36px auto;
   padding: 0 16px;
   display: flex;
