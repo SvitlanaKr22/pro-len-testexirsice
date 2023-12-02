@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/pro-len-testexirsice/static/css/main.48147322.css",
-    "main.js": "/pro-len-testexirsice/static/js/main.6ac776f6.js",
+    "main.js": "/pro-len-testexirsice/static/js/main.4fef6e53.js",
     "static/media/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.png": "/pro-len-testexirsice/static/media/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.69b34235a4ca6983e419.png",
+    "static/media/andrii_duda.png": "/pro-len-testexirsice/static/media/andrii_duda.9e90f34e1f6159b782f6.png",
+    "static/media/yurii_turchenko.png": "/pro-len-testexirsice/static/media/yurii_turchenko.711500a30aa78302b802.png",
+    "static/media/viktor_dunaev.png": "/pro-len-testexirsice/static/media/viktor_dunaev.d28b31ac7035d774d383.png",
+    "static/media/vitalii_schevchenko.png": "/pro-len-testexirsice/static/media/vitalii_schevchenko.4b90079b3866574e2528.png",
     "static/media/fira-sans-latin-ext-500-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-latin-ext-500-normal.a356cec6a04d2aa3d971.woff2",
     "static/media/fira-sans-latin-ext-300-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-latin-ext-300-normal.6bc476ebf08cbd8a90ce.woff2",
     "static/media/fira-sans-latin-ext-500-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-ext-500-normal.f6d50936dd8a1446a778.woff",
@@ -54,10 +58,10 @@
     "static/media/oswald-cyrillic-ext-300-normal.woff2": "/pro-len-testexirsice/static/media/oswald-cyrillic-ext-300-normal.d9ce5597fd4dd2eb1c78.woff2",
     "index.html": "/pro-len-testexirsice/index.html",
     "main.48147322.css.map": "/pro-len-testexirsice/static/css/main.48147322.css.map",
-    "main.6ac776f6.js.map": "/pro-len-testexirsice/static/js/main.6ac776f6.js.map"
+    "main.4fef6e53.js.map": "/pro-len-testexirsice/static/js/main.4fef6e53.js.map"
   },
   "entrypoints": [
     "static/css/main.48147322.css",
-    "static/js/main.6ac776f6.js"
+    "static/js/main.4fef6e53.js"
   ]
 }
