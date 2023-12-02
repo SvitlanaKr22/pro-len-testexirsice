@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import sprite from './../../images/svg/sprite.svg';
-import { Divfix, Div, Logo, ButtonBurgerMenu, Buttons } from './Header.styled';
+import { Div, Divh, Logo, ButtonBurgerMenu, Buttons } from './Header.styled';
 import { Button } from '../Button/Button';
 import { BurgerMenu } from '../BurgerMenu/BurgerMenu';
 
@@ -11,8 +11,8 @@ export const Header = () => {
   const onClose = () => setIsClickIcon(false);
 
   return (
-    <Divfix>
-      <Div>
+    <Div>
+      <Divh>
         <Logo>
           <use href={sprite + `#icon-Group-1`}></use>
         </Logo>
@@ -25,7 +25,7 @@ export const Header = () => {
           <Button text={'Get in touch'} />
         </Buttons>
         {isClickIcon && <BurgerMenu onClose={onClose} />}
-      </Div>
-    </Divfix>
+      </Divh>
+    </Div>
   );
 };

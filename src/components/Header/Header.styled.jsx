@@ -1,23 +1,37 @@
 import styled from 'styled-components';
-export const Divfix = styled.div`
-  // position: fixed;
-`;
-export const Div = styled.header`
+export const Div = styled.div`
+  //position: fixed;
   width: 100%;
-  position: relative;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 1240px;
+  }
+`;
+export const Divh = styled.header`
+  width: 100%;
+  //position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 100;
-  margin: 36px auto;
+  //margin: 36px auto;
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  //background-color: white;
 
   @media screen and (min-width: 768px) {
     width: 768px;
-    margin: 24px auto;
+    margin: 24px 36px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1200px;
+    width: 1240px;
   }
 `;
 export const Logo = styled.svg`

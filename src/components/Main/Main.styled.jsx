@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Div = styled.div`
   width: 100%;
+  margin-top: 146px;
 
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -9,25 +10,37 @@ export const Div = styled.div`
     margin-top: 170px;
   }
   @media screen and (min-width: 1280px) {
-    width: 1200px;
+    width: 1240px;
   }
 `;
 export const H1 = styled.h1`
-  width: 485px;
+  width: 100%;
   font-family: 'Oswald';
-  font-size: 64px;
+  font-size: 36px;
+  line-height: 36px;
   color: #173d33;
   font-weight: 300;
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    width: 485px;
+    font-size: 64px;
+    line-height: 64px;
+  }
 `;
+
 export const Par = styled.p`
-  width: 363px;
+  width: 100%;
   font-family: 'Fira Sans';
   font-size: 16px;
   color: #173d33;
   font-weight: 300;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 363px;
+  }
 `;
 
 export const Divpb = styled.div`
@@ -45,12 +58,16 @@ export const Line = styled.div`
   margin: 24px 8px 12px 8px;
 `;
 export const Parl = styled.span`
-  margin: 0 6px;
+  margin: 0;
   font-family: 'Fira Sans';
   font-size: 16px;
   color: #173d33;
   font-weight: 300;
   letter-spacing: -0.04em;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 6px;
+  }
 `;
 
 export const Divimg = styled.div`
