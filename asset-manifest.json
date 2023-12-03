@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/pro-len-testexirsice/static/css/main.48147322.css",
-    "main.js": "/pro-len-testexirsice/static/js/main.4fef6e53.js",
+    "main.js": "/pro-len-testexirsice/static/js/main.4ba593d3.js",
     "static/media/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.png": "/pro-len-testexirsice/static/media/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.69b34235a4ca6983e419.png",
+    "static/media/mask group.png": "/pro-len-testexirsice/static/media/mask group.6ce449f0a9b1385cbe63.png",
+    "static/media/wind-farms-fields.png": "/pro-len-testexirsice/static/media/wind-farms-fields.e01fa3d72a6401c56bbc.png",
     "static/media/andrii_duda.png": "/pro-len-testexirsice/static/media/andrii_duda.9e90f34e1f6159b782f6.png",
     "static/media/yurii_turchenko.png": "/pro-len-testexirsice/static/media/yurii_turchenko.711500a30aa78302b802.png",
     "static/media/viktor_dunaev.png": "/pro-len-testexirsice/static/media/viktor_dunaev.d28b31ac7035d774d383.png",
@@ -13,8 +15,8 @@
     "static/media/fira-sans-latin-ext-300-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-ext-300-normal.edaa91e970bc2c40b682.woff",
     "static/media/fira-sans-latin-500-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-latin-500-normal.6f2008a3bdf4b85d393b.woff2",
     "static/media/fira-sans-latin-300-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-latin-300-normal.5050dc784d6713f275f7.woff2",
+    "static/media/sprite.svg": "/pro-len-testexirsice/static/media/sprite.01a1512cce393856e7c15b6cdc1b85ac.svg",
     "static/media/fira-sans-latin-500-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-500-normal.8fadf89c56bfcc014e41.woff",
-    "static/media/sprite.svg": "/pro-len-testexirsice/static/media/sprite.8b45b1ca71386dab5bd023ee19e31d11.svg",
     "static/media/fira-sans-latin-300-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-300-normal.651508854029a8ba26fd.woff",
     "static/media/fira-sans-cyrillic-ext-500-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-cyrillic-ext-500-normal.b0cabda2ce257d7edc6f.woff2",
     "static/media/fira-sans-cyrillic-ext-300-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-cyrillic-ext-300-normal.bdee102343b8207c870c.woff2",
@@ -58,10 +60,10 @@
     "static/media/oswald-cyrillic-ext-300-normal.woff2": "/pro-len-testexirsice/static/media/oswald-cyrillic-ext-300-normal.d9ce5597fd4dd2eb1c78.woff2",
     "index.html": "/pro-len-testexirsice/index.html",
     "main.48147322.css.map": "/pro-len-testexirsice/static/css/main.48147322.css.map",
-    "main.4fef6e53.js.map": "/pro-len-testexirsice/static/js/main.4fef6e53.js.map"
+    "main.4ba593d3.js.map": "/pro-len-testexirsice/static/js/main.4ba593d3.js.map"
   },
   "entrypoints": [
     "static/css/main.48147322.css",
-    "static/js/main.4fef6e53.js"
+    "static/js/main.4ba593d3.js"
   ]
 }
