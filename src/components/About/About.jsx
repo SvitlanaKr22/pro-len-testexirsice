@@ -1,5 +1,6 @@
 import { Div, Divflex, Par, H2, Span, UpLine } from './About.styled';
 import { SpecialistsList } from '../SpecialistsList/SpecialistsList';
+import { Values } from '../Values/Values';
 import imgAD from './../../images/png/andrii_duda.png';
 import imgVD from './../../images/png/viktor_dunaev.png';
 import imgVS from './../../images/png/vitalii_schevchenko.png';
@@ -37,7 +38,6 @@ export const About = () => {
     <Div>
       <Divflex>
         <H2>LET’s start with small start with ourselves</H2>
-
         <UpLine />
         <Par>
           <Span>ecolution </Span>is the largest group of companies in Western
@@ -52,7 +52,7 @@ export const About = () => {
         </Par>
       </Divflex>
       <SpecialistsList list={listSpecialists} />
+      <Values />
     </Div>
   );
 };
-//CSS Grid
