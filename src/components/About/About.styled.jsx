@@ -32,7 +32,6 @@ export const UpLine = styled.div`
     background-color: #97d28b;
     width: 1px;
     height: 163px;
-    /* margin: 24px 8px 12px 8px; */
   }
 `;
 

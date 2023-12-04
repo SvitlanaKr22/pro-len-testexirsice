@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 export const Div = styled.div`
   position: fixed;
+  top: 0;
   width: 100%;
 
   @media screen and (min-width: 768px) {
@@ -15,16 +16,15 @@ export const Div = styled.div`
 export const Divh = styled.header`
   width: 100%;
   position: relative;
-  position: fixed;
-  top: 0;
-  left: 0;
+  //position: fixed;
+  /* top: 0;
+  left: 0; */
   z-index: 100;
   margin: 36px auto;
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //background-color: white;
 
   @media screen and (min-width: 768px) {
     width: 768px;

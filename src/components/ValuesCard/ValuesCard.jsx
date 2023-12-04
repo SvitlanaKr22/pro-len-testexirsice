@@ -4,7 +4,7 @@ export const ValuesCard = ({ icon, title, text }) => {
   return (
     <Div>
       <Divsh>
-        <svg width={18} height={18} stroke="#292D32">
+        <svg width={24} height={24} fill="#fff" stroke="#292D32">
           <use href={icon}></use>
         </svg>
         <H3>{title}</H3>

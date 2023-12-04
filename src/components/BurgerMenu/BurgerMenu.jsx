@@ -41,12 +41,12 @@ export const BurgerMenu = ({ onClose }) => {
       </List>
       <Listsn aria-label={'social media'}>
         <ButtonIcon>
-          <svg width={24} height={24}>
+          <svg width={24} height={24} fill="#fff" stroke="#fff">
             <use href={sprite + `#icon-facebook`}></use>
           </svg>
         </ButtonIcon>
         <ButtonIcon>
-          <svg width={24} height={24}>
+          <svg width={24} height={24} fill="#fff" stroke="#fff">
             <use href={sprite + `#icon-instagram`}></use>
           </svg>
         </ButtonIcon>

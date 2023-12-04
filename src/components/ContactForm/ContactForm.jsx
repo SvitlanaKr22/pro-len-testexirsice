@@ -1,4 +1,94 @@
-export const ContactForm = () => {
-  return <Div>{'Contact Us'}</Div>;
+import { Formik } from 'formik';
+import * as Yup from 'yup';
+import {
+  Div,
+  Form,
+  Label,
+  Field,
+  Textarea,
+  ErrorMessage,
+  Button,
+  Span,
+} from './ContactForm.styled';
+
+const ContactFormSchema = Yup.object().shape({
+  name: Yup.string()
+    .min(2, 'Too Short!')
+    .max(50, 'Too Long!')
+    .required('Required'),
+  email: Yup.string().email('Invalid email format').required('Required'),
+  number: Yup.string()
+    .matches(
+      /^(\+38|8)?0[0-9]{9}$/,
+      'Incorrect format. Enter in format XXXXXXXXXXXX'
+    )
+    .required('Required'),
+  message: Yup.string(),
+});
+
+const initialValues = {
+  name: '',
+  email: '',
+  number: '',
+  message: '',
 };
-//Form
+
+export const ContactForm = () => {
+  return (
+    <Div>
+      <Formik
+        initialValues={initialValues}
+        validationSchema={ContactFormSchema}
+        onSubmit={(values, actions) => {
+          console.log(values);
+          actions.resetForm();
+        }}
+      >
+        <Form>
+          <Label>
+            Full name:
+            <Field
+              type="text"
+              name="name"
+              title="Your name"
+              placeholder="John Rosie"
+            />
+            <ErrorMessage name="name" component="div" />
+          </Label>
+          <Label>
+            E-mail:
+            <Field
+              type="email"
+              name="email"
+              title="Your email"
+              placeholder="johnrosie@gmail.com"
+            />
+            <ErrorMessage name="email" component="div" />
+          </Label>
+          <Label>
+            Phone:
+            <Field
+              type="tel"
+              name="number"
+              title="Your phone"
+              placeholder="380961234567"
+            />
+            <ErrorMessage name="number" component="div" />
+          </Label>
+          <Label>
+            Message:
+            <Textarea
+              name="message"
+              component="textarea"
+              placeholder="Your message"
+            />
+          </Label>
+
+          <Button type="submit">
+            <Span>Sent</Span>
+          </Button>
+        </Form>
+      </Formik>
+    </Div>
+  );
+};
