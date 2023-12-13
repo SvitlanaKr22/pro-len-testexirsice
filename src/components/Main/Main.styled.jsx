@@ -37,6 +37,7 @@ export const Par = styled.p`
   font-weight: 300;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
+  text-align: justify;
 
   @media screen and (min-width: 768px) {
     width: 363px;
