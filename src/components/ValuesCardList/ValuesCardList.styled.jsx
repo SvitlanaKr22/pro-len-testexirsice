@@ -28,6 +28,7 @@ export const Img = styled.img`
     width: 596px;
   }
 `;
+
 export const Divcard = styled.div`
   margin-bottom: 24px;
   display: flex;

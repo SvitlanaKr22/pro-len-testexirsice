@@ -18,6 +18,7 @@ export const List = styled.ul`
   gap: 16px;
   flex-wrap: wrap;
   margin-top: 36px;
+  padding: 0;
 
   @media screen and (min-width: 768px) {
     flex-wrap: nowrap;
@@ -26,7 +27,7 @@ export const List = styled.ul`
   }
 
   @media screen and (min-width: 1280px) {
-    gap: 48px;
+    gap: 50px;
     margin-top: 124px;
   }
 `;

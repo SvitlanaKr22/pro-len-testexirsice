@@ -3,7 +3,7 @@ import { Div, H1, Divpb, Par, Line, Parl, Divimg, Divbtn } from './Main.styled';
 import img from './../../images/png/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.png';
 export const Main = () => {
   return (
-    <Div>
+    <Div id="main">
       <Divpb>
         <H1>renewable energy for any task</H1>
         <div>

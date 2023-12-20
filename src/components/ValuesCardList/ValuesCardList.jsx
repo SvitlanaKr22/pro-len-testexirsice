@@ -22,18 +22,8 @@ export const ValuesCardList = () => {
           }
         />
       </Divcard>
-      <Img
-        src={`${imgwind}`}
-        alt="specialists foto "
-        numbercol={3}
-        numberrow={1}
-      />
-      <Img
-        src={`${imgmask}`}
-        alt="specialists foto "
-        numbercol={1}
-        numberrow={2}
-      />
+      <Img src={`${imgwind}`} alt="photos of workers " />
+      <Img src={`${imgmask}`} alt="photo of a worker " />
       <Divcard>
         <ValuesCard
           icon={sprite + `#icon-cpu-charge`}

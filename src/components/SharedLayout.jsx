@@ -4,6 +4,7 @@ import { Main } from './Main/Main';
 import { About } from './About/About';
 import { QuestionSection } from './QuestionSection/QuestionSection';
 import { ContactUs } from './ContactUs/ContactUs';
+import { Footer } from './Footer/Footer';
 
 export const SharedLayout = () => {
   return (
@@ -13,6 +14,7 @@ export const SharedLayout = () => {
       <About />
       <QuestionSection />
       <ContactUs />
+      <Footer />
     </Container>
   );
 };

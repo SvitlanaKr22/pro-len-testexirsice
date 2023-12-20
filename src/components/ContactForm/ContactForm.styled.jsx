@@ -3,12 +3,8 @@ import { Form as FormikForm } from 'formik';
 import { Field as FormikField } from 'formik';
 import { ErrorMessage as FormikError } from 'formik';
 
-export const Div = styled.div`
-  background-color: #eaedf1;
-  margin: 0 auto;
-`;
-
 export const Form = styled(FormikForm)`
+  background-color: #eaedf1;
   width: 100%;
   padding: 36px 0;
   border: none;
