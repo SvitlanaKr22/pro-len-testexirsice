@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pro-len-testexirsice/static/css/main.48147322.css",
-    "main.js": "/pro-len-testexirsice/static/js/main.52337e85.js",
+    "main.js": "/pro-len-testexirsice/static/js/main.0678fb4b.js",
     "static/media/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.png": "/pro-len-testexirsice/static/media/wind-turbine-from-aerial-view-sustainable-development-environment-friendly-renewable-energy-concept.69b34235a4ca6983e419.png",
     "static/media/mask group.png": "/pro-len-testexirsice/static/media/mask group.6ce449f0a9b1385cbe63.png",
     "static/media/wind-farms-fields.png": "/pro-len-testexirsice/static/media/wind-farms-fields.e01fa3d72a6401c56bbc.png",
@@ -15,7 +15,7 @@
     "static/media/fira-sans-latin-ext-300-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-ext-300-normal.edaa91e970bc2c40b682.woff",
     "static/media/fira-sans-latin-500-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-latin-500-normal.6f2008a3bdf4b85d393b.woff2",
     "static/media/fira-sans-latin-300-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-latin-300-normal.5050dc784d6713f275f7.woff2",
-    "static/media/sprite.svg": "/pro-len-testexirsice/static/media/sprite.53edf87029206d34f56b0edb0b791f32.svg",
+    "static/media/sprite.svg": "/pro-len-testexirsice/static/media/sprite.7e612a9da2dc6bf5e358f2e5f298543f.svg",
     "static/media/fira-sans-latin-500-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-500-normal.8fadf89c56bfcc014e41.woff",
     "static/media/fira-sans-latin-300-normal.woff": "/pro-len-testexirsice/static/media/fira-sans-latin-300-normal.651508854029a8ba26fd.woff",
     "static/media/fira-sans-cyrillic-ext-500-normal.woff2": "/pro-len-testexirsice/static/media/fira-sans-cyrillic-ext-500-normal.b0cabda2ce257d7edc6f.woff2",
@@ -60,10 +60,10 @@
     "static/media/oswald-cyrillic-ext-300-normal.woff2": "/pro-len-testexirsice/static/media/oswald-cyrillic-ext-300-normal.d9ce5597fd4dd2eb1c78.woff2",
     "index.html": "/pro-len-testexirsice/index.html",
     "main.48147322.css.map": "/pro-len-testexirsice/static/css/main.48147322.css.map",
-    "main.52337e85.js.map": "/pro-len-testexirsice/static/js/main.52337e85.js.map"
+    "main.0678fb4b.js.map": "/pro-len-testexirsice/static/js/main.0678fb4b.js.map"
   },
   "entrypoints": [
     "static/css/main.48147322.css",
-    "static/js/main.52337e85.js"
+    "static/js/main.0678fb4b.js"
   ]
 }
